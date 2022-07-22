@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>RostOS - Minecraft-Servers</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Additional fonts for this theme -->
+    <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css">
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+    <!-- Custom styles for this theme -->
+    <link href="css/clean-blog.min.css" rel="stylesheet">
+
+    <!-- Temporary navbar container fix until Bootstrap 4 is patched -->
+    <style>
+    .navbar-toggler {
+        z-index: 1;
+    }
+    
+    @media (max-width: 576px) {
+        nav > .container {
+            width: 100%;
+        }
+    }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar fixed-top navbar-toggleable-md navbar-light" id="mainNav">
+        <div class="container">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                Menu <i class="fa fa-bars"></i>
+            </button>
+            <a class="navbar-brand page-scroll" href="https://space.bilibili.com/586172803?spm_id_from=333.1007.0.0.html">RostOS</a>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="post.html">Sample Post</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="intro-header" style="background-image: url('img/MinecraftServer/Java-Title.jpg')">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1">
+                    <div class="post-heading">
+                        <h1 style="color:rgb(255, 255, 255)">Minecraft open server tutorial</h1>
+                        <h2 class="subheading" style="color:rgb(255, 255, 255)">This article describes the MinecraftServer Java Editer tutorial</h2>
+                        <span class="meta" style="color:rgb(255, 255, 255)">Released by RostOS on July 22, 2022</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Post Content -->
+    <article>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1">
+                    <h1>Pay Attention</h1>
+                    
+                    <p>This article applies only to the Java Editer version of Minecraft Server Core</p>
+
+                    <p>If you're looking for a version of Bedrock Editer Minecraft Server Core, head to <a href="https://www.minecraft.net/en-us/download/server/bedrock">Minecrtaft Bedrock Editer</a> for tutorials</p>
+
+                    <p>Make sure that java is installed and that JAVA_HOME variable already exists in the PATH variable, if not, see <a href="javapath.html">Java PATH setting</a></p>
+
+                    <p>Make sure you have installed the NetPlus mapping software and completed the configuration,if not, see the <a href="netplus.html">NetPlus tutorial</a></p>
+
+                    <h1>Official Website</h1>
+
+                    <p><a href="https://launcher.mojang.com/v1/objects/e00c4052dac1d59a1188b2aa9d5a87113aaf1122/server.jar">Software Download : Minecraft-Servers 1.19.jar</a></p>
+
+                    <p><a href="https://www.minecraft.net/zh-hans/download/server">Minecraft-Servers Official Website</a></p>        
+                    
+                    <h1>Use the tutorial</h1>
+
+                    <p>1. Download minecraft-Servers.jar file and double-click to run it once(You need to place the server .jar file in the English-only path first, it is best to create a new folder.I will not be presented here to save the length of the article)</p>
+                    <img src="img/MinecraftServer/servers.jar.png">
+
+                    <p>2.After running, the server .jar file creates many sub-files in the directory</p>
+                    <img src="img/MinecraftServer/server-file.png">
+                    
+                    <p>3.Click user agreement (eula.txt) and change the last line of "eula=false" to "eula=true" to save and close the file</p>
+                    <img src="img/MinecraftServer/eula-true.png">
+
+                    <p>5.After running server.jar file, a window will open, and when you see "Done XXX s", it means that the server is successfully opened(The first boot may load slowly, please be patient)</p>
+                    <img src="img/MinecraftServer/server-opend.png">
+
+                    <p>6.After the server is successfully started, use NetPlus mapping software to penetrate (Minecraft-Server default intranet port is 25565),See <a href="netplus.html">NetPlus-Setting</a></p>
+
+                    <h1>More</h1>
+
+                    <p>More versions of Server Core</p>
+
+                    <p><a href="https://zhuanlan.zhihu.com/p/472095411">Zhi Hu</a></p>
+
+                    <p><a href="https://minecraft.fandom.com/zh/wiki/Server.properties">Server personalization</a></p>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <hr>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1">
+                    <ul class="list-inline text-center">
+                        <li class="list-inline-item">
+                            <a href="#">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://github.com/RRostOSS">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                    <p class="copyright text-muted">Copyright &copy; RostOS 2019-2022</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery Version 3.1.1 -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Tether -->
+    <script src="js/tether.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/clean-blog.min.js"></script>
+
+</body>
+
+</html>
